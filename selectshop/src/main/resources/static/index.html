@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="푸른팡팡이's Select Shop">
+    <meta property="og:description" content="관심상품을 선택하고, 관심가격을 설정">
+    <meta property="og:image" content="images/porbora.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="basic.js"></script>
+    <title>porocol4's Select shop</title>
+</head>
+<body>
+<div class="header">
+    Select Shop
+</div>
+<div class="nav">
+    <div class="nav-see active">
+        관심상품
+    </div>
+    <div class="nav-search">
+        상품검색
+    </div>
+</div>
+<div id="see-area">
+    <div id="product-container">
+        <div class="product-card" onclick="window.location.href='http://porocol4.shop/'">
+            <div class="card-header">
+                <img src="images/porbora.jpg"
+                     alt="">
+            </div>
+            <div class="card-body">
+                <div class="title">
+                    T I T L E
+                </div>
+                <div class="lprice">
+                    <span>
+                        666,666
+                    </span>원
+                </div>
+                <div class="isgood">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="search-area">
+    <div>
+        <input type="text" id="query">
+        <!--    <img src="images/icon-search.png" alt="images/porbora.jpg">-->
+    </div>
+    <div id="search-result-box">
+        <div class="search-itemDto">
+            <div class="search-itemDto-left">
+                <img src="images/porbora.jpg"
+                     alt="">
+            </div>
+            <div class="search-itemDto-center">
+                <div>S E A R C H</div>
+                <div class="price">
+                    999,999
+                    <span class="unit">원</span>
+                </div>
+            </div>
+            <div class="search-itemDto-right">
+                <img src="images/icon-save.png" alt="" onclick='addProduct()'>
+            </div>
+        </div>
+    </div>
+    <div id="container" class="popup-container">
+        <div class="popup">
+            <button id="close" class="close">
+                X
+            </button>
+            <h1>⏰최저가 설정하기</h1>
+            <p>최저가를 설정해두면 선택하신 상품의 최저가가 떴을 때<br/> 표시해드려요!</p>
+            <div>
+                <input type="text" id="myprice" placeholder="200,000">원
+            </div>
+            <button class="cta" onclick="setMyprice()">설정하기</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
