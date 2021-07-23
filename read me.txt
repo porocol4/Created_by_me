@@ -1,3 +1,9 @@
+< List >
+1. Calc = 계산기 (JAVA)
+2. Myselectshop = 
+
+=========================================================================
+
 폴더 연결
 1. git init
 2. git remote add origin https://github.com/porocol4/Created_by_me.git
