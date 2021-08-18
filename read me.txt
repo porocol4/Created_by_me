@@ -2,7 +2,6 @@
 1. Calc = 계산기 (JAVA)
 2. Selectshop = 사용자의 관심상품을 검색 & 등록하고, 최저가를 저장할 수 있는 웹 (JAVA)
 
-![image](https://user-images.githubusercontent.com/77235858/129867203-c6ccfe39-7830-4c1f-98a7-fcfa06a163ca.png)
 
 
 =========================================================================
